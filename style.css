@@ -1,0 +1,192 @@
+/* Default Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fixed-width{
+    width: 1024px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+/* Header Section */
+.header{
+    background-color: #9b59b6;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img {
+    width: 108px;
+    height: auto;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+   display: inline-block;
+   margin: -2px;
+   transition: .3s;
+
+}
+.header-right ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ddd;
+    padding: 0 15px;
+    line-height: 62px;
+    border-right: 1px solid #ddd;
+    font-size: 17px;
+}
+.header-right ul li:first-child a{
+    border-left: 1px solid #ddd;
+}
+.header-right ul li a:hover{
+    background-color: #8e44ad;
+}
+
+/* Banner Section */
+.banner{
+    background: url(./Image/smart-accessories-banner\ -\ Copy.jpg) no-repeat center;
+    background-size: cover;
+    padding: 160px;
+}
+.banner-caption{}
+.banner p{
+    margin: 5px 0;
+
+}
+.banner h1{
+    background-color: rgba(149, 165, 166, .4);
+    display: inline-block;
+    padding: 5px;
+    font-size: 34px ;
+    border-radius: 4px;
+    margin: 15px 0;
+    color:#d35400;
+}
+.banner a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 15px 0;
+    padding: 11px 17px;
+    color: black;
+    font-size: 17px;
+    border: 2px solid #8e44ad;
+}
+
+/* About Section */
+.about{}
+.about h1{
+    margin: 40px 0 10px 0;
+}
+.about p{
+    font-size: 15px;
+}
+
+/* Our Services Section */
+
+.our-services{}
+.our-services h1{
+    margin: 40px 0 0 0;
+}
+
+/*  Service Section */
+.service{
+
+}
+.service-webdesign{
+    float: left;
+    width: 31.33%;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 15px 1%;
+    box-sizing: border-box;
+    
+
+}
+.service-webdesign span{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #8e44ad;
+    margin: auto;
+    line-height: 60px;
+    font-size: 25px;
+    border-radius: 4px;
+    color: #ddd;
+   
+}
+.service-webdesign h2{
+    margin: 10px 0;
+}
+.service-webdesign p{}
+.service-graphicdesign{
+    float: left;
+    width: 31.33%;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 15px 1%;
+    box-sizing: border-box;
+}
+.service-graphicdesign span{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #8e44ad;
+    margin: auto;
+    line-height: 60px;
+    font-size: 25px;
+    border-radius: 4px;
+    color: #ddd;
+}
+.service-graphicdesign h2{
+    margin: 10px 0;
+}
+.service-graphicdesign p{}
+.service-digitalmarketing{
+    float: left;
+    width: 31.33%;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 15px 1%;
+    box-sizing: border-box;
+}
+.service-digitalmarketing span{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #8e44ad;
+    margin: auto;
+    line-height: 60px;
+    font-size: 25px;
+    border-radius: 4px;
+    color: #ddd;
+}
+.service-digitalmarketing h2{
+    margin: 10px 0;
+}
+.service-digitalmarketing p{}
+
